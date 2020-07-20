@@ -1,4 +1,9 @@
 package pkg1
 
-func Do()  {}
-func Do2() {}
+import (
+	"fmt"
+)
+
+func Do() {
+	fmt.Println("v2")
+}
